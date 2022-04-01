@@ -16,16 +16,3 @@ spec:
   lifecycle: experimental
   system: storefrontui
   owner: team-a
-
----
-apiVersion: backstage.io/v1alpha1
-kind: Location
-metadata:
-  name: storeweb-catalog-info
-  description: A catalog for the StoreWeb application
-spec:
-  targets:
-    - ./components/tanzu-java-web-app-info.yaml
-    - ./groups/org.yaml
-    - ./systems/storewebapp-system.yaml
-    - ./domains/storewebapp-domain.yaml
