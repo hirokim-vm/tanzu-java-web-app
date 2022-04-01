@@ -1,0 +1,29 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: tanzu-java-web-app
+  description: Tanzu Java Web App
+  tags:
+    - app-accelerator
+    - java
+    - spring
+    - web
+    - tanzu
+  annotations:
+    'backstage.io/kubernetes-label-selector': 'app.kubernetes.io/part-of=tanzu-java-web-app'
+spec:
+  type: service
+  lifecycle: experimental
+  owner: default-team
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Location
+metadata:
+  name: storeweb-catalog-info
+  description: A catalog for the StoreWeb application
+spec:
+  targets:
+    - ./groups/org.yaml
+    - ./systems/storewebapp-system.yaml
+    - ./domains/storewebapp-domain.yaml

@@ -1,0 +1,26 @@
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: e2c-dev-org
+  description: The E2C Business Development organization
+  links:
+    - url: https://tanzu.vmware.com/jp/tanzu
+      title: Website
+    - url: https://tanzu.vmware.com/jp/application-platform
+      title: tap product
+spec:
+  type: organization
+  profile:
+    displayName: E2C Business Development
+    email: demo@example.com
+    picture: https://avatars.dicebear.com/api/identicon/info@example.com.svg?background=%23fff&margin=25
+  children: [team-a]
+---
+apiVersion: backstage.io/v1alpha1
+kind: Location
+metadata:
+  name: org-group
+  description: Team under E2C Business Development
+spec:
+  targets:
+    - ./team-a-group.yaml

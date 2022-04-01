@@ -1,0 +1,7 @@
+apiVersion: backstage.io/v1alpha1
+kind: Domain
+metadata:
+  name: storefront-webapp
+  description: Fictitious e-commerce application
+spec:
+  owner: team-a

@@ -1,0 +1,8 @@
+apiVersion: backstage.io/v1alpha1
+kind: System
+metadata:
+  name: storefrontui
+  description: Storefront Web Application for fictitious e-commerce
+spec:
+  owner: team-a
+  domain: storefront-webapp
