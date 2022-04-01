@@ -14,6 +14,7 @@ metadata:
 spec:
   type: website
   lifecycle: experimental
+  system: storefrontui
   owner: team-a
 
 ---
