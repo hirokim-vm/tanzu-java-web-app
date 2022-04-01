@@ -12,9 +12,9 @@ metadata:
   annotations:
     'backstage.io/kubernetes-label-selector': 'app.kubernetes.io/part-of=tanzu-java-web-app'
 spec:
-  type: service
+  type: website
   lifecycle: experimental
-  owner: default-team
+  owner: team-a
 
 ---
 apiVersion: backstage.io/v1alpha1
