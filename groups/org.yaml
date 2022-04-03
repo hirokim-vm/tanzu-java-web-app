@@ -14,7 +14,7 @@ spec:
     displayName: E2C Business Development
     email: demo@example.com
     picture: https://avatars.dicebear.com/api/identicon/info@example.com.svg?background=%23fff&margin=25
-  children: [team-a]
+  children: [team-storefront]
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Location
@@ -23,4 +23,4 @@ metadata:
   description: Team under E2C Business Development
 spec:
   targets:
-    - ./team-a-group.yaml
+    - ./team-sf-group.yaml

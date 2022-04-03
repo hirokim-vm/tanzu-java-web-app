@@ -4,5 +4,5 @@ metadata:
   name: storefrontui
   description: Storefront Web Application for fictitious e-commerce
 spec:
-  owner: team-a
+  owner: team-storefront
   domain: storefront-webapp

@@ -15,4 +15,4 @@ spec:
   type: service
   lifecycle: experimental
   system: storefrontui
-  owner: team-a
+  owner: team-storefront

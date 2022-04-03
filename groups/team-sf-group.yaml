@@ -1,14 +1,14 @@
 apiVersion: backstage.io/v1alpha1
 kind: Group
 metadata:
-  name: team-a
-  description: Team A
+  name: team-storefront
+  description: Team StoreFront
 spec:
   type: team
   profile:
     # Intentional no displayName for testing
-    email: team-a@example.com
-    picture: https://avatars.dicebear.com/api/identicon/team-a@example.com.svg?background=%23fff&margin=25
+    email: team-sf@example.com
+    picture: https://avatars.dicebear.com/api/identicon/team-sf@example.com.svg?background=%23fff&margin=25
   parent: e2c-dev-org
   children: []
 
@@ -20,9 +20,9 @@ metadata:
 spec:
   profile:
     displayName: Hiroki Matsubara
-    email: guest1@example.com
-    picture: https://avatars.dicebear.com/api/avataaars/guest1@example.com.svg?background=%23fff
-  memberOf: [team-a]
+    email: hiromim@vmware.com
+    picture: https://avatars.dicebear.com/api/avataaars/hiromim@vmware.com.svg?background=%23fff
+  memberOf: [team-storefront]
 
 ---
 apiVersion: backstage.io/v1alpha1
@@ -34,4 +34,4 @@ spec:
     displayName: VMware Tanzu
     email: guest2@example.com
     picture: https://avatars.dicebear.com/api/avataaars/guest2@example.com.svg?background=%23fff
-  memberOf: [team-a]
+  memberOf: [team-storefront]

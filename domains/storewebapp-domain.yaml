@@ -4,4 +4,4 @@ metadata:
   name: storefront-webapp
   description: Fictitious e-commerce application
 spec:
-  owner: team-a
+  owner: team-storefront
