@@ -1,3 +1,4 @@
+# tanzu-java-web-app-info.yaml
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
@@ -14,5 +15,5 @@ metadata:
 spec:
   type: service
   lifecycle: experimental
-  system: storefrontui
-  owner: team-storefront
+  system: storefrontui      # storewebapp-system.yamlのsysmte名を指定
+  owner: team-storefront    # team-sf-group.yamlのgroup名を指定

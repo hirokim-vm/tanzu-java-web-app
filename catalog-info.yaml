@@ -5,7 +5,7 @@ metadata:
   description: A catalog for the StoreWeb application
 spec:
   targets:
-    - ./components/tanzu-java-web-app-info.yaml
-    - ./groups/org.yaml
-    - ./systems/storewebapp-system.yaml
-    - ./domains/storewebapp-domain.yaml
+    - ./components/tanzu-java-web-app-info.yaml  # Componentの定義情報 Github上のpath
+    - ./groups/org.yaml                          # Groupの定義情報 Github上のpath
+    - ./systems/storewebapp-system.yaml          # Systemの定義情報 Github上のpath
+    - ./domains/storewebapp-domain.yaml          # Domainの定義情報 Github上のpath
