@@ -1,7 +1,8 @@
+# storewebapp-domain.yaml
 apiVersion: backstage.io/v1alpha1
 kind: Domain
 metadata:
   name: storefront-webapp
   description: Fictitious e-commerce application
 spec:
-  owner: team-storefront
+  owner: team-storefront # doaminの所有者を指定

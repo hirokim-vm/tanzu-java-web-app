@@ -1,3 +1,4 @@
+# org.yaml
 apiVersion: backstage.io/v1alpha1
 kind: Group
 metadata:
@@ -14,7 +15,7 @@ spec:
     displayName: E2C Business Development
     email: demo@example.com
     picture: https://avatars.dicebear.com/api/identicon/info@example.com.svg?background=%23fff&margin=25
-  children: [team-storefront]
+  children: [team-storefront]   # このGroupの配下の子Groupを指定している
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Location
@@ -23,4 +24,4 @@ metadata:
   description: Team under E2C Business Development
 spec:
   targets:
-    - ./team-sf-group.yaml
+    - ./team-sf-group.yaml     # 子Groupの定義情報 Github上のpath

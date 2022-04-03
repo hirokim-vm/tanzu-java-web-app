@@ -1,3 +1,4 @@
+# team-sf-group.yaml
 apiVersion: backstage.io/v1alpha1
 kind: Group
 metadata:
@@ -9,7 +10,7 @@ spec:
     # Intentional no displayName for testing
     email: team-sf@example.com
     picture: https://avatars.dicebear.com/api/identicon/team-sf@example.com.svg?background=%23fff&margin=25
-  parent: e2c-dev-org
+  parent: e2c-dev-org   # 親groupを指定する
   children: []
 
 ---
@@ -19,10 +20,10 @@ metadata:
   name: hirokim
 spec:
   profile:
-    displayName: Hiroki Matsubara
-    email: hiromim@vmware.com
-    picture: https://avatars.dicebear.com/api/avataaars/hiromim@vmware.com.svg?background=%23fff
-  memberOf: [team-storefront]
+    displayName: Hiroki Matsubara   # TAP GUI上に表示されるユーザ名
+    email: hirokim@vmware.com       # TAP GUI上に表示されるメールアドレス
+    picture: https://avatars.dicebear.com/api/avataaars/hirokim@vmware.com.svg?background=%23fff
+  memberOf: [team-storefront]   # 所属するgroupを指定
 
 ---
 apiVersion: backstage.io/v1alpha1
